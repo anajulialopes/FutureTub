@@ -1,15 +1,61 @@
-body{
-    margin: 0;
+*  {
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+html, body {height:100%;
 }
 
 header{
     background-color: orange;
     height: 80px;
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
+}
+
+main{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wraps;
+   justify-content: space-evenly;
+   align-items: center;
+
+   
+}
+
+nav {
+    margin-bottom: 152px;
+    padding: 10px;
+}
+   
+section{
+    margin-bottom: 152px;
+}
+
+header h1{
+    padding-left: 20px;
+}
+
+nav ul{
+    list-style: none;
+    font-size: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    
 }
 
 input{
@@ -21,41 +67,34 @@ input{
 }
 
 img{
-    width: 293px;
-    height: 220px;
-    margin: 20px;
-    margin-left: 10px;
-}
-
-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    row-gap: 50px;
-    justify-content: center;
-    align-items: center;
-    grid-column: 1 / 4;
-
-}
-
-article{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    
+    width: 20vw; 
+    height: 25vh;
+    margin: 10px;
 
 }
 
 video{
-    width: 800px;
+    width: 700px;
     height: 500px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-top: 10px;
 }
 
 footer{
     background-color: grey;
-    height: 60px;
-    font-size: 20px;
-    display: block;
+    height: 50px;
+    font-size: 30px;
+    text-align: center; 
+    padding: 20px;
+}
 
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+   
 }
